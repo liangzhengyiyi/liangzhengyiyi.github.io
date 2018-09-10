@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CV on Explore the World</title>
+    <title>CV on Seek the Truth</title>
     <link>https://liangzhengyiyi.github.io/about/</link>
-    <description>Recent content in CV on Explore the World</description>
+    <description>Recent content in CV on Seek the Truth</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="https://liangzhengyiyi.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>CV</title>
-      <link>https://liangzhengyiyi.github.io/about/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://liangzhengyiyi.github.io/about/cv/</guid>
-      <description>Education Master of Communication, Nanjing University, September 2017-present
- Supervisor: Prof. Naipeng Chao co-supervised by Prof. Cheng-Jun Wang  Bachelor of Communication, Sun Yet-san University, September 2013-June 2017
- GPA:4.0/5.0 (5&amp;frasl;61)  Exchange study, City University of Hong Kong, August 2015-December 2015
-Summer School, University of Westminster(UK), July 2015-August 2015
-Research Interests  Computational communication Computational social science Health communication  Publications Scholarships  Honor for Academic Excellence, 2013-2015</description>
-    </item>
     
   </channel>
 </rss>
