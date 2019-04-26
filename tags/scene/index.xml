@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scene on Seek the Truth</title>
+    <title>Scene on To be a computational social scientist</title>
     <link>https://liangzhengyiyi.github.io/tags/scene/</link>
-    <description>Recent content in Scene on Seek the Truth</description>
+    <description>Recent content in Scene on To be a computational social scientist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Jan 2019 00:00:00 +0000</lastBuildDate>
@@ -32,10 +32,10 @@ I participated in a workshop about machine learning in Nanjing University in Jan
     
     <item>
       <title>Replication of the Spread of True and False News Online </title>
-      <link>https://liangzhengyiyi.github.io/post/chapter-4/</link>
+      <link>https://liangzhengyiyi.github.io/computation/code/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://liangzhengyiyi.github.io/post/chapter-4/</guid>
+      <guid>https://liangzhengyiyi.github.io/computation/code/</guid>
       <description>According to the data and code shared by the researchers, I replicate the results of the study.
 Access to the paper:http://science.sciencemag.org/content/359/6380/1146
 Author Soroush Vosoughi, Deb Roy, Sinan Aral

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Seek the Truth</title>
+    <title>Articles on To be a computational social scientist</title>
     <link>https://liangzhengyiyi.github.io/post/</link>
-    <description>Recent content in Articles on Seek the Truth</description>
+    <description>Recent content in Articles on To be a computational social scientist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
@@ -28,18 +28,6 @@ I participated in a workshop about machine learning in Nanjing University in Jan
       
       <guid>https://liangzhengyiyi.github.io/post/book_review/</guid>
       <description>Bit by Bit: social research in the digital age is written by Matthew Salganik, a professor of Princeton University, who has great interests in computational social science. Computational social science is a brand-new research filed without many guidelines or principles. This book is perhaps the first “textbook” in the field. Based on the book, I would like to share some thoughts with regards to datasets and methods in the digital age.</description>
-    </item>
-    
-    <item>
-      <title>Replication of the Spread of True and False News Online </title>
-      <link>https://liangzhengyiyi.github.io/post/chapter-4/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://liangzhengyiyi.github.io/post/chapter-4/</guid>
-      <description>According to the data and code shared by the researchers, I replicate the results of the study.
-Access to the paper:http://science.sciencemag.org/content/359/6380/1146
-Author Soroush Vosoughi, Deb Roy, Sinan Aral
-Central Findings They found that false news was more novel than true news, which suggests that people were more likely to share novel information. Whereas false stories inspired fear, disgust, and surprise in replies, true stories inspired anticipation, sadness, joy, and trust.</description>
     </item>
     
   </channel>

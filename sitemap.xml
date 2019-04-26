@@ -17,7 +17,7 @@
   </url>
   
   <url>
-    <loc>https://liangzhengyiyi.github.io/post/chapter-4/</loc>
+    <loc>https://liangzhengyiyi.github.io/computation/code/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -50,7 +50,8 @@
   </url>
   
   <url>
-    <loc>https://liangzhengyiyi.github.io/contact/</loc>
+    <loc>https://liangzhengyiyi.github.io/computation/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
