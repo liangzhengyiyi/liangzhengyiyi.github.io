@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>To be a computational social scientist  | Computation</title>
+    <title>To be a computational social scientist  | How to expedite the process of data crawling?</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -27,19 +27,17 @@
     
 
     
-      <link href="https://liangzhengyiyi.github.io/computation/index.xml" rel="alternate" type="application/rss+xml" title="To be a computational social scientist" />
-      <link href="https://liangzhengyiyi.github.io/computation/index.xml" rel="feed" type="application/rss+xml" title="To be a computational social scientist" />
-    
 
-    <meta property="og:title" content="Computation" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://liangzhengyiyi.github.io/computation/" />
+    <meta property="og:title" content="How to expedite the process of data crawling?" />
+<meta property="og:description" content="Master Jacques Coppenole" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://liangzhengyiyi.github.io/computation/crawle_data/" />
 
 
 
-<meta property="og:updated_time" content="2019-04-26T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2019-04-26T00:00:00&#43;00:00"/>
 
+<meta property="article:modified_time" content="2019-04-26T00:00:00&#43;00:00"/>
 
 
 
@@ -49,23 +47,33 @@
 
 
 
-<meta itemprop="name" content="Computation">
-<meta itemprop="description" content="">
 
+
+<meta itemprop="name" content="How to expedite the process of data crawling?">
+<meta itemprop="description" content="Master Jacques Coppenole">
+
+
+<meta itemprop="datePublished" content="2019-04-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-26T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="274">
+
+
+
+<meta itemprop="keywords" content="scene," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Computation"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="How to expedite the process of data crawling?"/>
+<meta name="twitter:description" content="Master Jacques Coppenole"/>
 
   </head>
 
   <body class="ma0 avenir bg-near-white">
 
     
+   
+  
 
-  
-  
-  <header class="cover bg-top" style="background-image: url('https://liangzhengyiyi.github.io/images/telescope.jpeg');">
-    <div class="bg-black-60">
+  <header>
+    <div class="bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://liangzhengyiyi.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -113,57 +121,113 @@
 </nav>
 
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Computation
-        </h1>
-        
-      </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-  <main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></main>
-    <section class="flex-ns flex-wrap justify-around mt5">
+  <article class="flex-l flex-wrap justify-between mw8 center">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        COMPUTATION
+      </p>
+      <h1 class="f1 athelas mb1">How to expedite the process of data crawling?</h1>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Computation</span>
-    <h1 class="f3 near-black">
-      <a href="/computation/crawle_data/" class="link black dim">
-        How to expedite the process of data crawling?
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.
-    </div>
-  </div>
+      <time class="f6 mv4 dib tracked" datetime="2019-04-26T00:00:00Z">April 26, 2019</time>
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</p>
+
+<p>I adapted two strategies to overcome the difficulties. First of all, utilizing proxy servers is the simplest way to accelerate web crawling. I changed the IP address every time I sent a request. The codes in python were shown as follows.</p>
+
+<pre><code>proxyHost = &quot;http-cla.abuyun.com&quot;
+proxyPort = &quot;9030&quot;
+
+# The info from the proxy server is overdue now
+proxyUser = &quot;HK833L818DDFV82C&quot;
+proxyPass = &quot;451383F40A18DB37&quot;
+
+proxyMeta = &quot;http://%(user)s:%(pass)s@%(host)s:%(port)s&quot; % {
+    &quot;host&quot; : proxyHost,
+    &quot;port&quot; : proxyPort,
+    &quot;user&quot; : proxyUser,
+    &quot;pass&quot; : proxyPass,
+}
+
+proxies = {
+    &quot;http&quot;  : proxyMeta,
+    &quot;https&quot; : proxyMeta,
+}
+
+# add to the request to change ip address every time
+headers = {'Proxy-Switch-Ip': 'yes'}
+</code></pre>
+
+<p>Second, in addition to proxy servers, it is suggested to use multiple processes to hasten data crawling. In python, the multiprocessing package provide an easy way to enable multiple processes. The codes were displayed as follows.</p>
+
+<pre><code>import multiprocessing
+
+def get_books:
+   pass
+
+if __name__=='__main__':
+    book_list = []
+    process_num = 10
+    batchsize = 100000
+    end = batchsize
+    for i in range(process_num): 
+        p = multiprocessing.Process(target = get_books, args=(i, end * i, end * (i+1)))
+        book_list.append(p)
+        p.start()
+    for p in book_list:
+        p.join()
+</code></pre>
+
+<p>Note that all codes will be uploaded to Github once the project is finished.
+My github: <a href="https://github.com/liangzhengyiyi">https://github.com/liangzhengyiyi</a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/scene" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">scene</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/post/workshop_machine/"> Machine Learning: the Key to Unthinkable Thoughts</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/post/book_review/">Book Review of Bit by Bit: social research in the digital age</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/computation/code_replication/">Replication of the Spread of True and False News Online </a>
+        </li>
+	    
+    </ul>
 </div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Computation</span>
-    <h1 class="f3 near-black">
-      <a href="/computation/code_replication/" class="link black dim">
-        Replication of the Spread of True and False News Online 
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      According to the data and code shared by the researchers, I replicate the results of the study.
-Access to the paper:http://science.sciencemag.org/content/359/6380/1146
-Author Soroush Vosoughi, Deb Roy, Sinan Aral
-Central Findings They found that false news was more novel than true news, which suggests that people were more likely to share novel information. Whereas false stories inspired fear, disgust, and surprise in replies, true stories inspired anticipation, sadness, joy, and trust.
-    </div>
-  </div>
-</div>
-</div>
-      
-    </section>
-</article>
+
+</aside>
+
+  </article>
 
     </main>
     <footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">

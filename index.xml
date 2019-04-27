@@ -6,10 +6,19 @@
     <description>Recent content in Zhengyi Liang on To be a computational social scientist</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://liangzhengyiyi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to expedite the process of data crawling?</title>
+      <link>https://liangzhengyiyi.github.io/computation/crawle_data/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://liangzhengyiyi.github.io/computation/crawle_data/</guid>
+      <description>Recently, I crawled a set of users&amp;rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</description>
+    </item>
     
     <item>
       <title> Machine Learning: the Key to Unthinkable Thoughts</title>
@@ -32,10 +41,10 @@ I participated in a workshop about machine learning in Nanjing University in Jan
     
     <item>
       <title>Replication of the Spread of True and False News Online </title>
-      <link>https://liangzhengyiyi.github.io/computation/code/</link>
+      <link>https://liangzhengyiyi.github.io/computation/code_replication/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://liangzhengyiyi.github.io/computation/code/</guid>
+      <guid>https://liangzhengyiyi.github.io/computation/code_replication/</guid>
       <description>According to the data and code shared by the researchers, I replicate the results of the study.
 Access to the paper:http://science.sciencemag.org/content/359/6380/1146
 Author Soroush Vosoughi, Deb Roy, Sinan Aral
