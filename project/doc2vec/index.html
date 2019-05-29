@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>To be a computational social scientist  | How to expedite the process of data crawling?</title>
+    <title>To be a computational social scientist  | The Geometry of Culture by Doc2vec</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -28,20 +28,16 @@
 
     
 
-    <meta property="og:title" content="How to expedite the process of data crawling?" />
+    <meta property="og:title" content="The Geometry of Culture by Doc2vec" />
 <meta property="og:description" content="Master Jacques Coppenole" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://liangzhengyiyi.github.io/computation/crawle_data/" />
+<meta property="og:url" content="https://liangzhengyiyi.github.io/project/doc2vec/" />
 
 
 
-<meta property="article:published_time" content="2019-04-26T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2019-05-28T20:57:06&#43;08:00"/>
 
-<meta property="article:modified_time" content="2019-04-26T00:00:00&#43;00:00"/>
-
-
-
-
+<meta property="article:modified_time" content="2019-05-28T20:57:06&#43;08:00"/>
 
 
 
@@ -49,19 +45,23 @@
 
 
 
-<meta itemprop="name" content="How to expedite the process of data crawling?">
+
+
+
+
+<meta itemprop="name" content="The Geometry of Culture by Doc2vec">
 <meta itemprop="description" content="Master Jacques Coppenole">
 
 
-<meta itemprop="datePublished" content="2019-04-26T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-26T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="274">
+<meta itemprop="datePublished" content="2019-05-28T20:57:06&#43;08:00" />
+<meta itemprop="dateModified" content="2019-05-28T20:57:06&#43;08:00" />
+<meta itemprop="wordCount" content="456">
 
 
 
 <meta itemprop="keywords" content="scene," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to expedite the process of data crawling?"/>
+<meta name="twitter:title" content="The Geometry of Culture by Doc2vec"/>
 <meta name="twitter:description" content="Master Jacques Coppenole"/>
 
   </head>
@@ -133,62 +133,39 @@
     <header class="mt4 w-100">
       <p class="f6 b helvetica tracked">
           
-        COMPUTATION
+        PROJECT
       </p>
-      <h1 class="f1 athelas mb1">How to expedite the process of data crawling?</h1>
+      <h1 class="f1 athelas mb1">The Geometry of Culture by Doc2vec</h1>
       
-      <time class="f6 mv4 dib tracked" datetime="2019-04-26T00:00:00Z">April 26, 2019</time>
+      <time class="f6 mv4 dib tracked" datetime="2019-05-28T20:57:06&#43;08:00">May 28, 2019</time>
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</p>
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled data from a website and sucessfully retrieved approximately 290,000 Chinese book summaries. I applied a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries.The idea was inspired by the paper <a href="https://arxiv.org/abs/1803.09288"><em>The Geometry of Culture: Analyzing Meaning through Word Embeddings</em></a>, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.</p>
 
-<p>I adapted two strategies to overcome the difficulties. First of all, utilizing proxy servers is the simplest way to accelerate web crawling. I changed the IP address every time I sent a request. The codes in python were shown as follows.</p>
+<p>First of all, due to the different sentence structure between Chinese and English, it was essential to seperate Chinese and remove stopwords before training the model. The software package Gensim provides handy codes for natural language processing. In my case, I utilized the doc2vec algorithms to train a word embedding model. The training process took almost 4 hours. After training, I chose some paris of words with antithetical semantic meaning to construct individualism and collectivism dimension, that is <font size="4">&ldquo;个人-集体&rdquo;, &ldquo;个人主义-集体主义&rdquo; and &ldquo;个人利益-集体利益&rdquo;</font>, and projected some words onto the dimension. The geometric distance represented semantic difference between words. The shorter geometric distance between words indicated they were more likely to exist in the same sentence, paragraph or article.
+The visulaization of individualism and collectivism dimension was shown in figure 1.</p>
 
-<pre><code>proxyHost = &quot;http-cla.abuyun.com&quot;
-proxyPort = &quot;9030&quot;
+<p><img src="/images/dim1.png" alt="figure 1" title="Cultural Dimension" /></p>
 
-# The info from the proxy server is overdue now
-proxyUser = &quot;HK833L818DDFV82C&quot;
-proxyPass = &quot;451383F40A18DB37&quot;
+<p align="center"><font color=gray size=4>Figure 1: Individualism and Collectivism Dimension</font></p> 
 
-proxyMeta = &quot;http://%(user)s:%(pass)s@%(host)s:%(port)s&quot; % {
-    &quot;host&quot; : proxyHost,
-    &quot;port&quot; : proxyPort,
-    &quot;user&quot; : proxyUser,
-    &quot;pass&quot; : proxyPass,
-}
+<p>Some results from the model was rather convincing. As indicated in figure 1, the words &lsquo;violence&rsquo;, &lsquo;revolution&rsquo;, &lsquo;totalitarian&rsquo;, &lsquo;The Cultural Revolution&rsquo;(a sociopolitical movement in China), &lsquo;Lei Feng&rsquo;(a well-known hero depicted by the Chinese communist party propoganda) are geometrically closer to the Collectivism dimension, whereas &lsquo;America&rsquo;, &lsquo;Capitalism&rsquo; are near the Individualism dimension. Additionally, I constructed the gender dimesion which was shown in figure 2.</p>
 
-proxies = {
-    &quot;http&quot;  : proxyMeta,
-    &quot;https&quot; : proxyMeta,
-}
+<p><img src="/images/dim2.png" alt="figure 2" title="Cultural Dimension" /></p>
 
-# add to the request to change ip address every time
-headers = {'Proxy-Switch-Ip': 'yes'}
-</code></pre>
+<p align="center"><font color=gray size=4>Figure 2: Gender Dimension</font></p> 
 
-<p>Second, in addition to proxy servers, it is suggested to use multiple processes to hasten data crawling. In python, the multiprocessing package provide an easy way to enable multiple processes. The codes were displayed as follows.</p>
+<p>Figure 2 suggests some gender sterotypes. For instance, women are more likely to be bounded by family, while men are expected to work and earn money. Besides, The China-America dimension was displayed in figure 3.</p>
 
-<pre><code>import multiprocessing
+<p><img src="/images/dim3.png" alt="figure 3" title="Cultural Dimension" /></p>
 
-def get_books:
-   pass
+<p align="center"><font color=gray size=4>Figure 3: China-America Dimension</font></p> 
 
-if __name__=='__main__':
-    book_list = []
-    process_num = 10
-    batchsize = 100000
-    end = batchsize
-    for i in range(process_num): 
-        p = multiprocessing.Process(target = get_books, args=(i, end * i, end * (i+1)))
-        book_list.append(p)
-        p.start()
-    for p in book_list:
-        p.join()
-</code></pre>
+<p>Figure 3 implies that the names of Chinese leaders like &lsquo;Mao Zedong&rsquo; and &lsquo;Deng Xiaoping&rsquo; are inclinede to China dimension, while some typical western values like human rights and private property are close to America Dimension.</p>
 
-<p>Note that all codes will be uploaded to Github once the project is finished.
-My github: <a href="https://github.com/liangzhengyiyi">https://github.com/liangzhengyiyi</a></p>
+<p>Although results from the word embedding model are seemingly consistent with real world like gender sterotypes, some results are bewildering and requried further exmaination. For instance, as shown in figure 3, &lsquo;democray&rsquo; and &lsquo;freedom&rsquo; are closer to China compared with America, which is counterintuitive. Hence, some results are deceptive and flawed which might be attributed to the fact that the neural-network word embedding model is a method of unsupervised learning. The resluts of unsupervised learning are in great need of further validation and careful interpretation.</p>
+
+<p>Overall, the word embedding model is in great capacity of learning the semantic relations between words, which is proved to be a new and promising methodogical tool for text analysis.</p>
 <ul class="pa0">
   
    <li class="list">
@@ -210,6 +187,10 @@ My github: <a href="https://github.com/liangzhengyiyi">https://github.com/liangz
     <p class="f5 b mb3">Related</p>
     <ul class="pa0 list">
 	   
+	     <li  class="mb2">
+          <a href="/computation/crawle_data/">How to expedite the process of data crawling?</a>
+        </li>
+	    
 	     <li  class="mb2">
           <a href="/post/workshop_machine/"> Machine Learning: the Key to Unthinkable Thoughts</a>
         </li>
