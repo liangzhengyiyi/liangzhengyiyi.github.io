@@ -55,7 +55,7 @@
 
 <meta itemprop="datePublished" content="2019-05-28T20:57:06&#43;08:00" />
 <meta itemprop="dateModified" content="2019-05-28T20:57:06&#43;08:00" />
-<meta itemprop="wordCount" content="503">
+<meta itemprop="wordCount" content="513">
 
 
 
@@ -142,24 +142,27 @@
 
     <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled data from a website and sucessfully retrieved approximately 290,000 Chinese book summaries. I applied a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries.The idea was inspired by the paper <a href="https://arxiv.org/abs/1803.09288"><em>The Geometry of Culture: Analyzing Meaning through Word Embeddings</em></a>, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.</p>
 
+<p><img src="/images/skymap.png" alt="figure 1" title="The sky map of vocabulary" />
+<p align="center"><font color=gray size=4>Figure 1: The Distance between Words in a Sky Map </font></p></p>
+
 <p>First of all, due to the different sentence structure between Chinese and English, it was essential to seperate Chinese and remove stopwords before training the model. The software package Gensim provides handy codes for natural language processing. In my case, I utilized the doc2vec algorithms to train a word embedding model. The training process took almost 4 hours. After training, I chose some paris of words with antithetical semantic meaning to construct individualism and collectivism dimension, that is <font size="4">&ldquo;个人-集体&rdquo;, &ldquo;个人主义-集体主义&rdquo; and &ldquo;个人利益-集体利益&rdquo;</font>, and projected some words onto the dimension. The geometric distance represented semantic difference between words. The shorter geometric distance between words indicated they were more likely to exist in the same sentence, paragraph or article.
 The visulaization of individualism and collectivism dimension was shown in figure 1.</p>
 
-<p><img src="/images/dim1.png" alt="figure 1" title="Cultural Dimension" /></p>
+<p><img src="/images/dim1.png" alt="figure 2" title="Cultural Dimension" /></p>
 
-<p align="center"><font color=gray size=4>Figure 1: Individualism and Collectivism Dimension</font></p> 
+<p align="center"><font color=gray size=4>Figure 2: Individualism and Collectivism Dimension</font></p> 
 
 <p>Some results from the model was rather convincing. As indicated in figure 1, the words &lsquo;violence&rsquo;, &lsquo;revolution&rsquo;, &lsquo;totalitarian&rsquo;, &lsquo;The Cultural Revolution&rsquo;(a sociopolitical movement in China), &lsquo;Lei Feng&rsquo;(a well-known hero depicted by the Chinese communist party propoganda) are geometrically closer to the Collectivism dimension, whereas &lsquo;America&rsquo;, &lsquo;Capitalism&rsquo; are near the Individualism dimension. Additionally, I constructed the gender dimesion which was shown in figure 2.</p>
 
-<p><img src="/images/dim2.png" alt="figure 2" title="Cultural Dimension" /></p>
+<p><img src="/images/dim2.png" alt="figure 3" title="Cultural Dimension" /></p>
 
-<p align="center"><font color=gray size=4>Figure 2: Gender Dimension</font></p> 
+<p align="center"><font color=gray size=4>Figure 3: Gender Dimension</font></p> 
 
 <p>Figure 2 suggests some gender sterotypes. For instance, women are more likely to be bounded by family, while men are expected to work and earn money. Besides, The China-America dimension was displayed in figure 3.</p>
 
-<p><img src="/images/dim3.png" alt="figure 3" title="Cultural Dimension" /></p>
+<p><img src="/images/dim3.png" alt="figure 4" title="Cultural Dimension" /></p>
 
-<p align="center"><font color=gray size=4>Figure 3: China-America Dimension</font></p> 
+<p align="center"><font color=gray size=4>Figure 4: China-America Dimension</font></p> 
 
 <p>Figure 3 implies that the names of Chinese leaders like &lsquo;Mao Zedong&rsquo; and &lsquo;Deng Xiaoping&rsquo; are inclinede to China dimension, while some typical western values like human rights and private property are close to America Dimension.</p>
 
