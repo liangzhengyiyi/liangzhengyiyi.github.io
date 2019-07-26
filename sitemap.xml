@@ -52,12 +52,6 @@
   </url>
   
   <url>
-    <loc>https://liangzhengyiyi.github.io/cv/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://liangzhengyiyi.github.io/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -71,15 +65,7 @@
   </url>
   
   <url>
-    <loc>https://liangzhengyiyi.github.io/tags/scene/</loc>
-    <lastmod>2019-05-28T20:57:06+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://liangzhengyiyi.github.io/tags/</loc>
-    <lastmod>2019-05-28T20:57:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

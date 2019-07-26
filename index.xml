@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zhengyi Liang on To be a computational social scientist</title>
+    <title>Zhengyi Liang on Explore the Unknown</title>
     <link>https://liangzhengyiyi.github.io/</link>
-    <description>Recent content in Zhengyi Liang on To be a computational social scientist</description>
+    <description>Recent content in Zhengyi Liang on Explore the Unknown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 28 May 2019 20:57:06 +0800</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>The Geometry of Culture by Doc2vec</title>
+      <title>The Geometry of Culture: How Chinese netizens perceive and understand politics</title>
       <link>https://liangzhengyiyi.github.io/project/doc2vec/</link>
       <pubDate>Tue, 28 May 2019 20:57:06 +0800</pubDate>
       
@@ -31,7 +31,7 @@ Figure 1: The Distance between Words in a Sky Map</description>
     </item>
     
     <item>
-      <title> Machine Learning: the Key to Unthinkable Thoughts</title>
+      <title> Machine Learning: Thinking Unthinkable</title>
       <link>https://liangzhengyiyi.github.io/post/workshop_machine/</link>
       <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
       
