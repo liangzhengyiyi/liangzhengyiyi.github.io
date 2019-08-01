@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liangzhengyiyi.github.io/project/polarization/</loc>
+    <lastmod>2019-08-01T10:38:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://liangzhengyiyi.github.io/project/doc2vec/</loc>
     <lastmod>2019-05-28T20:57:06+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -72,7 +79,13 @@
   
   <url>
     <loc>https://liangzhengyiyi.github.io/</loc>
-    <lastmod>2019-05-28T20:57:06+08:00</lastmod>
+    <lastmod>2019-08-01T10:38:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://liangzhengyiyi.github.io/description/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

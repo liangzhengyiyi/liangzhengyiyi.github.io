@@ -6,13 +6,22 @@
     <description>Recent content in Zhengyi Liang on Explore the Unknown</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 20:57:06 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 10:38:10 +0800</lastBuildDate>
     
 	<atom:link href="https://liangzhengyiyi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>The Geometry of Culture: How Chinese netizens perceive and understand politics</title>
+      <title>Popularity determines how Chinese netizens select a political book rather than political alignment</title>
+      <link>https://liangzhengyiyi.github.io/project/polarization/</link>
+      <pubDate>Thu, 01 Aug 2019 10:38:10 +0800</pubDate>
+      
+      <guid>https://liangzhengyiyi.github.io/project/polarization/</guid>
+      <description>Political Polarization in China? Political polarization is one of the most heatedly discussed issues in America. A great number of research papers delve into the topic. Recently, I have been exploring large-scale political books data derived from an online reading community. The data is composed of users’ book collections (When a user takes an interest in a book, she/he tags it). When I was probing into the data, one question struck me: is there political polarization in China?</description>
+    </item>
+    
+    <item>
+      <title>The Geometry of Culture: How Chinese perceive and apprehend politics on distinctive dimensions</title>
       <link>https://liangzhengyiyi.github.io/project/doc2vec/</link>
       <pubDate>Tue, 28 May 2019 20:57:06 +0800</pubDate>
       
@@ -41,7 +50,7 @@ I participated in a workshop about machine learning in Nanjing University in Jan
     </item>
     
     <item>
-      <title>Book Review of Bit by Bit: social research in the digital age</title>
+      <title>Book Review of Bit by Bit: Social Research in the Digital Age</title>
       <link>https://liangzhengyiyi.github.io/post/book_review/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
@@ -59,6 +68,16 @@ I participated in a workshop about machine learning in Nanjing University in Jan
 Access to the paper:http://science.sciencemag.org/content/359/6380/1146
 Author Soroush Vosoughi, Deb Roy, Sinan Aral
 Central Findings They found that false news was more novel than true news, which suggests that people were more likely to share novel information. Whereas false stories inspired fear, disgust, and surprise in replies, true stories inspired anticipation, sadness, joy, and trust.</description>
+    </item>
+    
+    <item>
+      <title>Zhengyi Liang</title>
+      <link>https://liangzhengyiyi.github.io/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://liangzhengyiyi.github.io/description/</guid>
+      <description>I am a graduate student at Nanjing University in China. I am studying in the Computational Communication Lab with research interest in political communication and computational social science. While embracing computational methodology, I am also familiar with traditional research methods, such as survey and experiment.
+My recent study investigates how Chinese netizens perceive and understand politics by analyzing a large scale of political books data from an online reading community.</description>
     </item>
     
   </channel>

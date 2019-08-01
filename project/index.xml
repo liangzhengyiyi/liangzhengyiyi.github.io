@@ -12,7 +12,16 @@
     
     
     <item>
-      <title>The Geometry of Culture: How Chinese netizens perceive and understand politics</title>
+      <title>Popularity determines how Chinese netizens select a political book rather than political alignment</title>
+      <link>https://liangzhengyiyi.github.io/project/polarization/</link>
+      <pubDate>Thu, 01 Aug 2019 10:38:10 +0800</pubDate>
+      
+      <guid>https://liangzhengyiyi.github.io/project/polarization/</guid>
+      <description>Political Polarization in China? Political polarization is one of the most heatedly discussed issues in America. A great number of research papers delve into the topic. Recently, I have been exploring large-scale political books data derived from an online reading community. The data is composed of users’ book collections (When a user takes an interest in a book, she/he tags it). When I was probing into the data, one question struck me: is there political polarization in China?</description>
+    </item>
+    
+    <item>
+      <title>The Geometry of Culture: How Chinese perceive and apprehend politics on distinctive dimensions</title>
       <link>https://liangzhengyiyi.github.io/project/doc2vec/</link>
       <pubDate>Tue, 28 May 2019 20:57:06 +0800</pubDate>
       
