@@ -17,7 +17,7 @@
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liangzhengyiyi.github.io/computation/crawle_data/</guid>
-      <description>Recently, I crawled a set of users&amp;rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</description>
+      <description>Recently, I crawled a set of users&amp;rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, which is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</description>
     </item>
     
     <item>

@@ -29,7 +29,7 @@
     
 
     <meta property="og:title" content="The Geometry of Culture: How Chinese perceive and apprehend politics" />
-<meta property="og:description" content="Recently, I crawled data from a website and sucessfully retrieved approximately 290,000 Chinese book summaries. I applied a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries.The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
+<meta property="og:description" content="Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
 Figure 1: The Distance between Words in a Sky Map" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://liangzhengyiyi.github.io/project/doc2vec/" />
@@ -51,20 +51,20 @@ Figure 1: The Distance between Words in a Sky Map" />
 
 
 <meta itemprop="name" content="The Geometry of Culture: How Chinese perceive and apprehend politics">
-<meta itemprop="description" content="Recently, I crawled data from a website and sucessfully retrieved approximately 290,000 Chinese book summaries. I applied a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries.The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
+<meta itemprop="description" content="Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
 Figure 1: The Distance between Words in a Sky Map">
 
 
 <meta itemprop="datePublished" content="2019-05-28T20:57:06&#43;08:00" />
 <meta itemprop="dateModified" content="2019-05-28T20:57:06&#43;08:00" />
-<meta itemprop="wordCount" content="513">
+<meta itemprop="wordCount" content="517">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Geometry of Culture: How Chinese perceive and apprehend politics"/>
-<meta name="twitter:description" content="Recently, I crawled data from a website and sucessfully retrieved approximately 290,000 Chinese book summaries. I applied a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries.The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
+<meta name="twitter:description" content="Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
 Figure 1: The Distance between Words in a Sky Map"/>
 
   </head>
@@ -143,35 +143,35 @@ Figure 1: The Distance between Words in a Sky Map"/>
       <time class="f6 mv4 dib tracked" datetime="2019-05-28T20:57:06&#43;08:00">May 28, 2019</time>
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled data from a website and sucessfully retrieved approximately 290,000 Chinese book summaries. I applied a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries.The idea was inspired by the paper <a href="https://arxiv.org/abs/1803.09288"><em>The Geometry of Culture: Analyzing Meaning through Word Embeddings</em></a>, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.</p>
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper <a href="https://arxiv.org/abs/1803.09288"><em>The Geometry of Culture: Analyzing Meaning through Word Embeddings</em></a>, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.</p>
 
 <p><img src="/images/skymap.png" alt="figure 1" title="The sky map of vocabulary" />
 <p align="center"><font color=gray size=4>Figure 1: The Distance between Words in a Sky Map </font></p></p>
 
-<p>First of all, due to the different sentence structure between Chinese and English, it was essential to seperate Chinese and remove stopwords before training the model. The software package Gensim provides handy codes for natural language processing. In my case, I utilized the doc2vec algorithms to train a word embedding model. The training process took almost 4 hours. After training, I chose some paris of words with antithetical semantic meaning to construct individualism and collectivism dimension, that is <font size="4">&ldquo;个人-集体&rdquo;, &ldquo;个人主义-集体主义&rdquo; and &ldquo;个人利益-集体利益&rdquo;</font>, and projected some words onto the dimension. The geometric distance represented semantic difference between words. The shorter geometric distance between words indicated they were more likely to exist in the same sentence, paragraph or article.
-The visulaization of individualism and collectivism dimension was shown in figure 1.</p>
+<p>First of all, due to the different sentence structure between Chinese and English, it was essential to separate Chinese and remove stopwords before training the model. The software package Gensim provides handy codes for natural language processing. In my case, I utilized the doc2vec algorithms to train a word embedding model. The training process took almost 4 hours. After training, I chose some pairs of words with antithetical semantic meaning to construct individualism and collectivism dimension, that is <font size="4">&ldquo;个人-集体&rdquo;, &ldquo;个人主义-集体主义&rdquo; and &ldquo;个人利益-集体利益&rdquo;</font>, and projected some words onto the dimension. The geometric distance represented the semantic difference between words. The shorter geometric distance between words indicated they were more likely to exist in the same sentence, paragraph or article.
+The visualization of individualism and collectivism dimension was shown in figure 1.</p>
 
 <p><img src="/images/dim1.png" alt="figure 2" title="Cultural Dimension" /></p>
 
 <p align="center"><font color=gray size=4>Figure 2: Individualism and Collectivism Dimension</font></p> 
 
-<p>Some results from the model was rather convincing. As indicated in figure 1, the words &lsquo;violence&rsquo;, &lsquo;revolution&rsquo;, &lsquo;totalitarian&rsquo;, &lsquo;The Cultural Revolution&rsquo;(a sociopolitical movement in China), &lsquo;Lei Feng&rsquo;(a well-known hero depicted by the Chinese communist party propoganda) are geometrically closer to the Collectivism dimension, whereas &lsquo;America&rsquo;, &lsquo;Capitalism&rsquo; are near the Individualism dimension. Additionally, I constructed the gender dimesion which was shown in figure 2.</p>
+<p>Some results from the model are rather compelling. As indicated in figure 1, the words &lsquo;violence&rsquo;, &lsquo;revolution&rsquo;, &lsquo;totalitarian&rsquo;, &lsquo;The Cultural Revolution&rsquo;(a sociopolitical movement in China), &lsquo;Lei Feng&rsquo;(a well-known hero depicted by the Chinese communist party propaganda) are geometrically closer to the Collectivism dimension, whereas two words, &lsquo;America&rsquo; and &lsquo;Capitalism&rsquo; are near the Individualism dimension. Additionally, I constructed the gender dimension which was shown in figure 2.</p>
 
 <p><img src="/images/dim2.png" alt="figure 3" title="Cultural Dimension" /></p>
 
 <p align="center"><font color=gray size=4>Figure 3: Gender Dimension</font></p> 
 
-<p>Figure 2 suggests some gender sterotypes. For instance, women are more likely to be bounded by family, while men are expected to work and earn money. Besides, The China-America dimension was displayed in figure 3.</p>
+<p>Figure 2 suggests some gender stereotpyes. For instance, women are more likely to be bounded by family, while men are expected to work and earn money. Besides, The China-America dimension was displayed in figure 3.</p>
 
 <p><img src="/images/dim3.png" alt="figure 4" title="Cultural Dimension" /></p>
 
 <p align="center"><font color=gray size=4>Figure 4: China-America Dimension</font></p> 
 
-<p>Figure 3 implies that the names of Chinese leaders like &lsquo;Mao Zedong&rsquo; and &lsquo;Deng Xiaoping&rsquo; are inclinede to China dimension, while some typical western values like human rights and private property are close to America Dimension.</p>
+<p>Figure 3 implies that the names of Chinese leaders like &lsquo;Mao Zedong&rsquo; and &lsquo;Deng Xiaoping&rsquo; are inclined to &lsquo;China&rsquo; dimension, while some typical western values like human rights and private property are close to &lsquo;America&rsquo; Dimension.</p>
 
-<p>Although results from the word embedding model are seemingly consistent with real world like gender sterotypes, some results are bewildering and requried further exmaination. For instance, as shown in figure 3, &lsquo;democray&rsquo; and &lsquo;freedom&rsquo; are closer to China compared with America, which is counterintuitive. There might be two reasons to account for the confusing results. First, the small size of the training corpus set a limit on the outcomes of the model. The results might be more accurate if the training corpus emcompassed the content of books instead of book summaries. Second,  some results are deceptive and flawed which might be attributed to the fact that the neural-network word embedding model is a method of unsupervised learning. The results of unsupervised learning are in great need of further validation and careful interpretation.</p>
+<p>Although results from the word embedding model are seemingly consistent with reality like gender bias, some results are bewildering and required further examination. For instance, as shown in figure 3, &lsquo;democracy&rsquo; and &lsquo;freedom&rsquo; are closer to China compared with America, which is counterintuitive. There might be two reasons to account for the confusing results. First, the small size of the training corpus set a limit on the outcomes of the model. The results might be more accurate if the training corpus encompassed the content of books instead of book summaries. Second,  some results are deceptive and flawed which might be attributed to the fact that the neural-network word embedding model is a method of unsupervised learning. The results of unsupervised learning are in great need of further validation and careful interpretation.</p>
 
-<p>Overall, the word embedding model is in great capacity of learning the semantic relations between words, which is proved to be a new and promising methodogical tool for text analysis.</p>
+<p>Overall, the word embedding model is in great capacity of learning the semantic relations between words, which is proved to be a new and promising methodological tool for text analysis.</p>
 
 
 

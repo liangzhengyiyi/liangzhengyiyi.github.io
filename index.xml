@@ -26,7 +26,7 @@
       <pubDate>Tue, 28 May 2019 20:57:06 +0800</pubDate>
       
       <guid>https://liangzhengyiyi.github.io/project/doc2vec/</guid>
-      <description>Recently, I crawled data from a website and sucessfully retrieved approximately 290,000 Chinese book summaries. I applied a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries.The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
+      <description>Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
 Figure 1: The Distance between Words in a Sky Map</description>
     </item>
     
@@ -36,7 +36,7 @@ Figure 1: The Distance between Words in a Sky Map</description>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liangzhengyiyi.github.io/computation/crawle_data/</guid>
-      <description>Recently, I crawled a set of users&amp;rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</description>
+      <description>Recently, I crawled a set of users&amp;rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, which is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</description>
     </item>
     
     <item>
@@ -45,8 +45,7 @@ Figure 1: The Distance between Words in a Sky Map</description>
       <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://liangzhengyiyi.github.io/post/workshop_machine/</guid>
-      <description>As Richard Hamming said, “just as there are odours that dogs can smell and we cannot, as well as sounds that dogs can hear and we cannot&amp;hellip;Perhaps there are thoughts we cannot think. Evolution, so far, may possibly have blocked us from being able to think in some directions, there could be unthinkable thoughts.’’ Machine is probably the extension of human brain, which is the key to unthinkable thoughts.
-I participated in a workshop about machine learning in Nanjing University in January, 2019.</description>
+      <description>“Just as there are odors that dogs can smell and we cannot, as well as sounds that dogs can hear and we cannot&amp;hellip;Perhaps there are thoughts we cannot think. Evolution, so far, possibly have blocked us from being able to think in some directions, there could be unthinkable thoughts.’’ A quote from Richard Hamming, a prestigious mathematician. The machine is probably the extension of a human brain, which is critical to unthinkable thoughts.</description>
     </item>
     
     <item>
@@ -55,7 +54,7 @@ I participated in a workshop about machine learning in Nanjing University in Jan
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://liangzhengyiyi.github.io/post/book_review/</guid>
-      <description>Bit by Bit: social research in the digital age is written by Matthew Salganik, a professor of Princeton University, who has great interests in computational social science. Computational social science is a brand-new research filed without many guidelines or principles. This book is perhaps the first “textbook” in the field. Based on the book, I would like to share some thoughts with regards to datasets and methods in the digital age.</description>
+      <description>Bit by Bit: social research in the digital age is written by Matthew Salganik, a professor at Princeton University, who has great interest in computational social science. Computational social science is a brand-new research filed without specific guidelines or principles. This book is perhaps the first “textbook” in the area. Based on the book, I would like to share some thoughts with regard to dataset and research method in the digital age.</description>
     </item>
     
     <item>

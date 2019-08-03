@@ -29,7 +29,7 @@
     
 
     <meta property="og:title" content="How to expedite the process of data crawling?" />
-<meta property="og:description" content="Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling." />
+<meta property="og:description" content="Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, which is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://liangzhengyiyi.github.io/computation/crawle_data/" />
 
@@ -50,7 +50,7 @@
 
 
 <meta itemprop="name" content="How to expedite the process of data crawling?">
-<meta itemprop="description" content="Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.">
+<meta itemprop="description" content="Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, which is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.">
 
 
 <meta itemprop="datePublished" content="2019-04-26T00:00:00&#43;00:00" />
@@ -62,7 +62,7 @@
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How to expedite the process of data crawling?"/>
-<meta name="twitter:description" content="Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling."/>
+<meta name="twitter:description" content="Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, which is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling."/>
 
   </head>
 
@@ -140,9 +140,9 @@
       <time class="f6 mv4 dib tracked" datetime="2019-04-26T00:00:00Z">April 26, 2019</time>
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, that is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</p>
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled a set of users&rsquo; book collections from an online community. First I randomly generated about 1 million user ids and obtained book collections by iterating the search. Because some user ids were invalid, over 110,000 users’ book collections were acquired eventually. To crawl a large dataset, web crawlers have to confront a major challenge, which is how to expedite the process since most websites designed Anti-crawlers tactics to obstruct crawling.</p>
 
-<p>I adapted two strategies to overcome the difficulties. First of all, utilizing proxy servers is the simplest way to accelerate web crawling. I changed the IP address every time I sent a request. The codes in python were shown as follows.</p>
+<p>I employ two strategies to overcome the difficulties. First of all, utilizing proxy servers is the simplest way to accelerate web crawling. I changed the IP address every time I sent a request. The codes in python were shown as follows.</p>
 
 <pre><code>proxyHost = &quot;http-cla.abuyun.com&quot;
 proxyPort = &quot;9030&quot;
@@ -167,7 +167,7 @@ proxies = {
 headers = {'Proxy-Switch-Ip': 'yes'}
 </code></pre>
 
-<p>Second, in addition to proxy servers, it is suggested to use multiple processes to hasten data crawling. In python, the multiprocessing package provide an easy way to enable multiple processes. The codes were displayed as follows.</p>
+<p>Second, in addition to proxy servers, it is suggested to use multiple processes to hasten data crawling. In python, the multiprocessing package provides an easy way to enable multiple processes. The codes were displayed as follows.</p>
 
 <pre><code>import multiprocessing
 
