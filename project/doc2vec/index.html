@@ -29,8 +29,8 @@
     
 
     <meta property="og:title" content="The Geometry of Culture: How Chinese perceive and apprehend politics" />
-<meta property="og:description" content="Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
-Figure 1: The Distance between Words in a Sky Map" />
+<meta property="og:description" content="Research Question How do Chinese perceive and apprehend politics?
+Methodology A public-available word embedding dataset trained by the Word2vec/skip gram algorithm is obtained to examine political connotations. The word embedding model is appropriate to represent political associations based on three reasons. First, it was trained by a large corpus covering various subjects, such as People&rsquo;s Daily News, Baidu Encyclopedia, Weibo (equivalent of Tweeter) and literature. Specifically, the corpus encompasses political coverage on the news outlets and political discussions on social media, which enables the embedding model to capture underlying political connotations among words." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://liangzhengyiyi.github.io/project/doc2vec/" />
 
@@ -51,21 +51,21 @@ Figure 1: The Distance between Words in a Sky Map" />
 
 
 <meta itemprop="name" content="The Geometry of Culture: How Chinese perceive and apprehend politics">
-<meta itemprop="description" content="Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
-Figure 1: The Distance between Words in a Sky Map">
+<meta itemprop="description" content="Research Question How do Chinese perceive and apprehend politics?
+Methodology A public-available word embedding dataset trained by the Word2vec/skip gram algorithm is obtained to examine political connotations. The word embedding model is appropriate to represent political associations based on three reasons. First, it was trained by a large corpus covering various subjects, such as People&rsquo;s Daily News, Baidu Encyclopedia, Weibo (equivalent of Tweeter) and literature. Specifically, the corpus encompasses political coverage on the news outlets and political discussions on social media, which enables the embedding model to capture underlying political connotations among words.">
 
 
 <meta itemprop="datePublished" content="2019-05-28T20:57:06&#43;08:00" />
 <meta itemprop="dateModified" content="2019-05-28T20:57:06&#43;08:00" />
-<meta itemprop="wordCount" content="517">
+<meta itemprop="wordCount" content="603">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="The Geometry of Culture: How Chinese perceive and apprehend politics"/>
-<meta name="twitter:description" content="Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper The Geometry of Culture: Analyzing Meaning through Word Embeddings, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.
-Figure 1: The Distance between Words in a Sky Map"/>
+<meta name="twitter:description" content="Research Question How do Chinese perceive and apprehend politics?
+Methodology A public-available word embedding dataset trained by the Word2vec/skip gram algorithm is obtained to examine political connotations. The word embedding model is appropriate to represent political associations based on three reasons. First, it was trained by a large corpus covering various subjects, such as People&rsquo;s Daily News, Baidu Encyclopedia, Weibo (equivalent of Tweeter) and literature. Specifically, the corpus encompasses political coverage on the news outlets and political discussions on social media, which enables the embedding model to capture underlying political connotations among words."/>
 
   </head>
 
@@ -143,35 +143,55 @@ Figure 1: The Distance between Words in a Sky Map"/>
       <time class="f6 mv4 dib tracked" datetime="2019-05-28T20:57:06&#43;08:00">May 28, 2019</time>
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Recently, I crawled data from a website and successfully obtained approximately 290,000 Chinese book summaries. I employed a neural-network word embedding model to discover the culture dimensions hidden under the large-scale book summaries. The idea was inspired by the paper <a href="https://arxiv.org/abs/1803.09288"><em>The Geometry of Culture: Analyzing Meaning through Word Embeddings</em></a>, which corroborated the effectiveness of the new methodological tool word embedding by constructing different cultural dimensions.</p>
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
 
-<p><img src="/images/skymap.png" alt="figure 1" title="The sky map of vocabulary" />
-<p align="center"><font color=gray size=4>Figure 1: The Distance between Words in a Sky Map </font></p></p>
+<h4 id="research-question">Research Question</h4>
 
-<p>First of all, due to the different sentence structure between Chinese and English, it was essential to separate Chinese and remove stopwords before training the model. The software package Gensim provides handy codes for natural language processing. In my case, I utilized the doc2vec algorithms to train a word embedding model. The training process took almost 4 hours. After training, I chose some pairs of words with antithetical semantic meaning to construct individualism and collectivism dimension, that is <font size="4">&ldquo;个人-集体&rdquo;, &ldquo;个人主义-集体主义&rdquo; and &ldquo;个人利益-集体利益&rdquo;</font>, and projected some words onto the dimension. The geometric distance represented the semantic difference between words. The shorter geometric distance between words indicated they were more likely to exist in the same sentence, paragraph or article.
-The visualization of individualism and collectivism dimension was shown in figure 1.</p>
+<p>How do Chinese perceive and apprehend politics?</p>
 
-<p><img src="/images/dim1.png" alt="figure 2" title="Cultural Dimension" /></p>
+<h4 id="methodology">Methodology</h4>
 
-<p align="center"><font color=gray size=4>Figure 2: Individualism and Collectivism Dimension</font></p> 
+<p>A public-available word embedding dataset trained by the Word2vec/skip gram algorithm is obtained to examine political connotations. The word embedding model is appropriate to represent political associations based on three reasons. First, it was trained by a large corpus covering various subjects, such as People&rsquo;s Daily News, Baidu Encyclopedia, Weibo (equivalent of Tweeter) and literature. Specifically, the corpus encompasses political coverage on the news outlets and political discussions on social media, which enables the embedding model to capture underlying political connotations among words. In addition, the model demonstrates high accuracy when researchers evaluate the performance of word representations by the CA_translated dataset, a commonly used benchmark for assessment (Li et al., 2018). Third, the model is widely used by some published papers and ongoing projects which provides high quality Chinese word vectors (Gong &amp; Yao, 2019, Qiu et al., 2018, Hu et al., 2019).</p>
 
-<p>Some results from the model are rather compelling. As indicated in figure 1, the words &lsquo;violence&rsquo;, &lsquo;revolution&rsquo;, &lsquo;totalitarian&rsquo;, &lsquo;The Cultural Revolution&rsquo;(a sociopolitical movement in China), &lsquo;Lei Feng&rsquo;(a well-known hero depicted by the Chinese communist party propaganda) are geometrically closer to the Collectivism dimension, whereas two words, &lsquo;America&rsquo; and &lsquo;Capitalism&rsquo; are near the Individualism dimension. Additionally, I constructed the gender dimension which was shown in figure 2.</p>
+<p>Word pairs to construct political dimensions:</p>
 
-<p><img src="/images/dim2.png" alt="figure 3" title="Cultural Dimension" /></p>
+<ol>
+<li><p>Collectivism-Individualism :集体—个人; 集体主义—个人主义; 集体利益—个人利益; 国家—个体</p></li>
 
-<p align="center"><font color=gray size=4>Figure 3: Gender Dimension</font></p> 
+<li><p>Conservatism- Liberalism: 保守—自由; 保守主义—自由主义; 保守派—自由派</p></li>
 
-<p>Figure 2 suggests some gender stereotpyes. For instance, women are more likely to be bounded by family, while men are expected to work and earn money. Besides, The China-America dimension was displayed in figure 3.</p>
+<li><p>Socialism—Capitalism: 资本主义—社会主义</p></li>
 
-<p><img src="/images/dim3.png" alt="figure 4" title="Cultural Dimension" /></p>
+<li><p>Authoritarianism—Democracy: 权威—民主</p></li>
+</ol>
 
-<p align="center"><font color=gray size=4>Figure 4: China-America Dimension</font></p> 
+<h4 id="result">Result</h4>
 
-<p>Figure 3 implies that the names of Chinese leaders like &lsquo;Mao Zedong&rsquo; and &lsquo;Deng Xiaoping&rsquo; are inclined to &lsquo;China&rsquo; dimension, while some typical western values like human rights and private property are close to &lsquo;America&rsquo; Dimension.</p>
+<p>Figure 1</p>
 
-<p>Although results from the word embedding model are seemingly consistent with reality like gender bias, some results are bewildering and required further examination. For instance, as shown in figure 3, &lsquo;democracy&rsquo; and &lsquo;freedom&rsquo; are closer to China compared with America, which is counterintuitive. There might be two reasons to account for the confusing results. First, the small size of the training corpus set a limit on the outcomes of the model. The results might be more accurate if the training corpus encompassed the content of books instead of book summaries. Second,  some results are deceptive and flawed which might be attributed to the fact that the neural-network word embedding model is a method of unsupervised learning. The results of unsupervised learning are in great need of further validation and careful interpretation.</p>
+<p><img src="/images/Picture 1.png" alt="A." /><p align="center"><font color=gray size=4>A. Collectivism-Individualism</font></p></p>
 
-<p>Overall, the word embedding model is in great capacity of learning the semantic relations between words, which is proved to be a new and promising methodological tool for text analysis.</p>
+<p><img src="/images/Picture4.png" alt="B." /><p align="center"><font color=gray size=4>B. Conservatism- Liberalism</font></p></p>
+
+<p><img src="/images/Picture2.png" alt="C." /><p align="center"><font color=gray size=4>C. Socialism—Capitalism</font></p></p>
+
+<p><img src="/images/Picture3.png" alt="D." /><p align="center"><font color=gray size=4>D. Authoritarianism—Democracy</font></p></p>
+
+<p>Figure 1 shows the projection of ten countries that are closely connected with China onto the political dimensions. The results are meaningful and intriguing. In A, North Korea, China, Russia and Japan project closest to the Collectivism dimension, while western countries like USA and Britain are relatively further from the side of the dimension, indicating a consistent relationship with common knowledge. It is important to point out that all the countries project on the side of Collectivism dimension. One possible explanation is that due to the censorship, most public articles evade the discussions of sensitive political issues such as human rights, freedom of speech and the right to assemble peaceably. These invisible issues are the key components to characterize individualism. Additionally, the embedding model displays high accuracy when it comes to identify the countries’ political systems. In C, China, North Korea, Cuba are positioned on the side of socialism, whereas USA, Britain, Japan, French and German project onto the capitalism dimension.</p>
+
+<p>In B and D, on the political dimensions of Conservatism-Liberalism and Authoritarianism-Democracy, the angles of projection words appear to be approximately orthogonal, suggesting that the relations between words and dimensions are semantically and contextually irrelevant. Polysemy can account for the outcomes. The definition of liberalism and democracy are ambiguous and debatable in Chinese. China declares itself as a country with democracy and freedom but different from that in western countries. In other words, both China and USA can be characterized as democratic and free countries in text. Hence,  the two dimensions, Conservatism-Liberalism and Authoritarianism—Democracy may not be lucid and reliable to apprehend Chinese politics because the semantic meanings of democracy and liberalism are vague and bewildering in Chinese.</p>
+
+<p>Reference:</p>
+
+<p>Chinese word vectors, retrieve from <a href="https://github.com/Embedding/Chinese-Word-Vectors">https://github.com/Embedding/Chinese-Word-Vectors</a></p>
+
+<p>Li, S., Zhao, Z., Hu, R., Li, W., Liu, T., &amp; Du, X. (2018). Analogical reasoning on Chinese morphological and semantic relations. arXiv preprint arXiv:1805.06504.</p>
+
+<p>Qiu, Y., Li, H., Li, S., Jiang, Y., Hu, R., &amp; Yang, L. (2018). Revisiting Correlations between Intrinsic and Extrinsic Evaluations of Word Embeddings. In Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data (pp. 209-221). Springer, Cham.</p>
+
+<p>Hu, H., Li, W., Zhou, H., Tian, Z., Zhang, Y., &amp; Zou, L. (2019, June). Ensemble Methods to Distinguish Mainland and Taiwan Chinese. In Proceedings of the Sixth Workshop on NLP for Similar Languages, Varieties and Dialects (pp. 165-171).</p>
+
+<p>Gong, T., &amp; Yao, X. (2019). An Attention-based Deep Model for Automatic Short Answer Score. International Journal of Computer Science and Software Engineering, 8(6), 127-132.</p>
 
 
 
