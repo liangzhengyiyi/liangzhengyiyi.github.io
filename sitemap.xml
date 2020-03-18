@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liangzhengyiyi.github.io/project/virus/</loc>
+    <lastmod>2020-03-18T19:00:13+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://liangzhengyiyi.github.io/project/ideological_space/</loc>
     <lastmod>2020-01-31T13:22:51+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -93,7 +100,7 @@
   
   <url>
     <loc>https://liangzhengyiyi.github.io/</loc>
-    <lastmod>2020-01-31T13:22:51+08:00</lastmod>
+    <lastmod>2020-03-18T19:00:13+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
