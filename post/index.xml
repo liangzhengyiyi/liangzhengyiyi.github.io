@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Uncover the Unknown</title>
+    <title>Articles on Thinking the Unthinkable</title>
     <link>https://liangzhengyiyi.github.io/post/</link>
-    <description>Recent content in Articles on Uncover the Unknown</description>
+    <description>Recent content in Articles on Thinking the Unthinkable</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title> Machine Learning: Thinking Unthinkable</title>
+      <title> Machine Learning: a conundrum beyong our understanding</title>
       <link>https://liangzhengyiyi.github.io/post/workshop_machine/</link>
       <pubDate>Wed, 23 Jan 2019 00:00:00 +0000</pubDate>
       
